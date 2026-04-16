@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(black, #1a0000);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
+}
+nav a { color:white; margin:0 10px; text-decoration:none; }
+.hero {
+  height: 90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)), url('https://via.placeholder.com/1200');
+  background-size:cover;
+}
+h1 { color:red; }
+.btn {
+  background:red; padding:15px 30px; border:none; color:white;
+}
+.section { padding:60px; text-align:center; }
+.cards { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+.card { background:#111; padding:20px; border-radius:10px; }
+.gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; }
+.gallery img { width:100%; }
+footer { padding:20px; background:black; text-align:center; }
